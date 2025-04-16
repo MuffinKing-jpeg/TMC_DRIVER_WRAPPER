@@ -5,7 +5,7 @@
 #include "usart.h"
 
 typedef struct {
-    UART_HandleTypeDef bus;
+    UART_HandleTypeDef *bus;
     uint8_t nodeAdress;
     uint16_t icID;
 } tmc2209_EntryTypeDef;
