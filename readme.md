@@ -25,7 +25,7 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
 
 ### Options
 
-- Include build in ramp feature 
+- Include build in ramp feature
      `option(ENABLE_RAMP "Enable ramp" ON)`
 
 ### Selecting IC
@@ -54,3 +54,15 @@ option(USE_HAL_DRIVER "Use STM32 HAL" ON)
 
 - STM32 HAL
 - *you can write your own and merge <3*
+
+## TODOs
+
+- Implement every IC low level driver
+  - STM32 HAL
+  - STM32 CMSIS
+    - G0x1
+    - F4x3
+    - ***Maybe others, in future.***
+  - MSPM0
+  - MSP430
+- Obtain (or build) module with every IC
